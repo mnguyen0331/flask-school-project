@@ -11,8 +11,8 @@ A flask application that handles authentication and file upload
 
 ## Connect to MySQL and create user model
 * Open app.py
-* Input MySQL password in app.config['MYSQL_PASSWORD']
-* Input Schema name in app.config['MYSQL_DB'] (mine is 449_db)
+* Input MySQL password in app.config['MYSQL_PASSWORD'] and "password" field in pymysql.connect
+* Input Schema name in app.config['MYSQL_DB'] (mine is 449_db) and "db" field in pymysql.connect
 * Open MySQL workbench and runs users.sql file in models folder to create a new db and insert admin account
 
 ## Run the app
